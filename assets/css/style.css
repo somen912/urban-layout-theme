@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@500;800&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* hero section */
+
+.hero-section{
+    height: 100vh;
+    background-image: url("../img/banner.png");
+    background-position: center;
+}
+
+.nav-section{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 5%;
+    color: #ffff;
+}
+
+.nav-section p{
+    margin: 0%;
+}
+
+.logo{
+    font-size: 20px;
+}
+
+.logo span{
+    color: #45CFDD;
+}
+
+.content-section{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content{
+    width:40%;
+    text-align: center;
+    color: #ffff;
+}
+
+.hero-content h1{
+    font-size: 60px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 500;
+}
+
+button{
+    font-size: 20px;
+    padding: 1% 2%;
+    background-color: #068FFF;
+    color: #ffff;
+    border: none;
+}
+
+/* service setion */
+
+
+.service-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2% 15%;
+    font-family: 'Noto Serif', serif;
+}
+
+.service-2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #068FFF;
+    color: #ffffff;
+    padding: 2% 15%;
+    font-family: 'Noto Serif', serif;
+}
+
+.service-2 button{
+    background-color: #ffffff;
+    color: #068FFF;
+}
+
+.service-img img{
+    width: 200px;
+    border-radius: 100%;
+    padding: 2%;
+    border: 1px solid #ffffff;
+}
+
+.service-content{
+    width: 60%;
+    margin:2%;
+}
+
+.service-content h3{
+    font-size: 30px;
+}
+
+
+/* team section */
+
+.team-section{
+    padding:2% 15%;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+.team-section h3{
+    font-size: 30px;
+}
+
+.team-member{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.member{
+    width:30%
+}
+
+.member img{
+    width: 200px;
+    border-radius: 100%;
+}
+
+
+.footer-section{
+    text-align: center;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.social-links a{
+    font-size: 20px;
+    text-decoration: none;
+    color: grey;
+}
+
+.social-links a:hover{
+    color: #068FFF;
+}
+
+
+
+
+@media only screen and (max-width:800px){
+
+    /* hero section */
+    .hero-content{
+        width:80%
+    }
+
+    .hero-content span{
+        color: #45CFDD;
+    }
+
+    button{
+        padding: 2% 10%;
+    }
+
+    /* service section */
+
+    .service-1{
+        display: flex;
+        flex-direction: column;
+        padding: 2% 0%;
+        text-align: center;
+        
+    }
+    
+    .service-2{
+        display: flex;
+        flex-direction: column;
+        padding: 5% 0%;
+        text-align: center;
+    }
+
+    /* team section */
+
+    .team-section{
+        padding:2% 0%;
+        text-align: center;
+    }
+    
+    
+    .team-member{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .member{
+        width:90%;
+        padding: 5% 0%;
+    }
+
+    .social-links{
+        padding:5% 0%;
+    }
+
+    .social-links a{
+        font-size: 30px;
+        text-decoration: none;
+        color: grey;
+    }
+
+}
